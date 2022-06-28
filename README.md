@@ -52,6 +52,59 @@ A API permite retornar dados salas de aula e seus respectivos alunos, veja como 
 },
 </pre>
 
+<b>PARA BUSCAR TODOS OS ALUNOS DE UMA DETERMINADA TURMA:</b>
+
+<pre>
+.get("http://www.algoritolabs.com.br/api/turmas/1")
+.then((res) => {
+   console.log(res.data)
+})
+.catch((error) => {
+   console.log(error);
+});
+</pre>
+
+<b>RESULTADO:</b>
+
+<pre>
+{
+    "id": 1,
+    "nome": "Ensino Fundamental I A",
+    "serie": "1. Ano",
+    "created_at": "2022-06-24T20:09:25.000000Z",
+    "updated_at": "2022-06-24T20:09:25.000000Z",
+    "alunos": [
+        {
+            "id": 2,
+            "turma_id": 1,
+            "nome": "João Guilherme",
+            "email": "joaogui@gmail.com",
+            "nascimento": "20/04/2012",
+            "created_at": "2022-06-24T20:12:15.000000Z",
+            "updated_at": "2022-06-25T05:59:47.000000Z"
+        },
+        {
+            "id": 6,
+            "turma_id": 1,
+            "nome": "Samara Bezerra",
+            "email": "samaramoura@gmail.com",
+            "nascimento": "03/05/2012",
+            "created_at": "2022-06-25T06:13:25.000000Z",
+            "updated_at": "2022-06-25T22:55:41.000000Z"
+        },
+        {
+            "id": 8,
+            "turma_id": 1,
+            "nome": "Algusto Lima",
+            "email": "algustolima@gmail.com",
+            "nascimento": "06/03/2012",
+            "created_at": "2022-06-25T23:01:48.000000Z",
+            "updated_at": "2022-06-25T23:01:48.000000Z"
+        }
+    ]
+}
+</pre>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
