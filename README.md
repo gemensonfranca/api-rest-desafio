@@ -4,15 +4,15 @@ A API permite retornar dados salas de aula e seus respectivos alunos, veja como 
 
 BUSCANDO SALAS DE AULA:
 
-<code>
-.get("http://www.algoritolabs.com.br/api/alunos")<br>
-  .then((res) => {<br>
-          console.log(res.data)<br>
+<pre>
+.get("http://www.algoritolabs.com.br/api/alunos")
+  .then((res) => {
+          console.log(res.data)
   })
-  .catch((error) => {<br>
-          console.log(error);<br>
-  });<br>
-</code>
+  .catch((error) => {
+          console.log(error);
+  });
+</pre>
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
