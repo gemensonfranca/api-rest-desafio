@@ -123,7 +123,7 @@ PASSANDO NO CORPO DA REQUISIÇÃO OS SEGUINTES DADOS:
 <pre>
 {
     "nome": "Sala de aula atualizada",
-    "serie": "1. Ano",
+    "serie": "1. Ano"
 }
 </pre>
 
