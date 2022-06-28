@@ -6,12 +6,12 @@ BUSCANDO SALAS DE AULA:
 
 <pre>
 .get("http://www.algoritolabs.com.br/api/alunos")
-  .then((res) => {
-          console.log(res.data)
-  })
-  .catch((error) => {
-          console.log(error);
-  });
+.then((res) => {
+   console.log(res.data)
+})
+.catch((error) => {
+   console.log(error);
+});
 </pre>
 
 
