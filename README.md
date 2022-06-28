@@ -127,6 +127,17 @@ PASSANDO NO CORPO DA REQUISIÇÃO OS SEGUINTES DADOS:
 }
 </pre>
 
+DELETE
+<pre>
+.delete("http://www.algoritolabs.com.br/api/turmas/1")
+.then((res) => {
+   console.log(res.data)
+})
+.catch((error) => {
+   console.log(error);
+});
+</pre>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
