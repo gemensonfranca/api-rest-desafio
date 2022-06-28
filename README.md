@@ -26,6 +26,31 @@ A API permite retornar dados salas de aula e seus respectivos alunos, veja como 
 },
 </pre>
 
+<b>BUSCANDO ALUNOS:</b>
+
+<pre>
+.get("http://www.algoritolabs.com.br/api/alunos")
+.then((res) => {
+   console.log(res.data)
+})
+.catch((error) => {
+   console.log(error);
+});
+</pre>
+
+<b>RESULTADO:</b>
+
+<pre>
+{
+   "id": 8,
+   "turma_id": 1,
+   "nome": "Algusto Lima",
+   "email": "algustolima@gmail.com",
+   "nascimento": "06/03/2012",
+   "created_at": "2022-06-25T23:01:48.000000Z",
+   "updated_at": "2022-06-25T23:01:48.000000Z"
+},
+</pre>
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
