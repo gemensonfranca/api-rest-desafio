@@ -105,6 +105,28 @@ A API permite retornar dados salas de aula e seus respectivos alunos, veja como 
 }
 </pre>
 
+<b>OUTROS COMANDOS:</b>
+
+UPDATE
+<pre>
+.put("http://www.algoritolabs.com.br/api/turmas/1")
+.then((res) => {
+   console.log(res.data)
+})
+.catch((error) => {
+   console.log(error);
+});
+</pre>
+
+PASSANDO NO CORPO DA REQUISIÇÃO OS SEGUINTES DADOS:
+
+<pre>
+{
+    "nome": "Sala de aula atualizada",
+    "serie": "1. Ano",
+}
+</pre>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
