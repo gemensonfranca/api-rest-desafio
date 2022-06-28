@@ -2,10 +2,10 @@ A API pode ser consumida pela URL http://www.algoritolabs.com.br/api
 
 A API permite retornar dados salas de aula e seus respectivos alunos, veja como realizar suas consultas:
 
-BUSCANDO SALAS DE AULA:
+<b>BUSCANDO SALAS DE AULA:</b>
 
 <pre>
-.get("http://www.algoritolabs.com.br/api/alunos")
+.get("http://www.algoritolabs.com.br/api/turmas")
 .then((res) => {
    console.log(res.data)
 })
